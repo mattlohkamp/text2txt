@@ -1,0 +1,14 @@
+{
+  "name": "text2txt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chrome extension that downloads selected text as a .txt file.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chrome-extension"
+  ],
+  "author": "matt lohkamp",
+  "license": "MIT"
+}

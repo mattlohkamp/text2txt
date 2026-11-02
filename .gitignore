@@ -1,0 +1,8 @@
+node_modules/
+*.zip
+*.crx
+*.pem
+.claude/settings.local.json
+
+# Links to .agents/skills (made by the skills installer)
+.claude/skills/

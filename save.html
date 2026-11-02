@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Save selection – Text2txt</title>
+  <link rel="stylesheet" href="save.css">
+  <script src="save.js" type="module"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Save selection</h1>
+      <p id="filename" class="filename"></p>
+    </header>
+
+    <textarea id="preview" readonly aria-label="Selected text" spellcheck="false"></textarea>
+    <p id="stats" class="stats"></p>
+
+    <footer>
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+      <div class="buttons">
+        <button id="cancel" type="button">Cancel</button>
+        <button id="save" type="button" class="primary" autofocus>Save…</button>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

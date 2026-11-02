@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Text2txt",
+  "version": "1.0",
+  "description": "Saves selected text as a .txt file.",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
